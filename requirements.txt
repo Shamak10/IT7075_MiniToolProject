@@ -1,0 +1,6 @@
+jupyter
+ipykernel
+python-dotenv
+anthropic
+openai
+torch
