@@ -1,0 +1,2 @@
+Python 3.12.14
+/Users/shamak/IT7075_MiniToolProject/.venv/bin/python
