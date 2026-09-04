@@ -19,10 +19,16 @@ or Cmd+Shift+P -> "Python: Select Interpreter").
 
 - `hello.py` — interpreter sanity-check script.
 - `resource_inventory.py` — local hardware/GPU inventory (system_profiler + torch).
-- `llm_test.py` — local script calling Anthropic and OpenAI using `.env` credentials.
+- `llm_test.py` — local script calling Anthropic (Claude) using `.env` credentials.
 - `local_test.ipynb` — notebook run inside VS Code against the `.venv` kernel.
 - `colab_notebook.ipynb` — uploaded to Google Colab for Drive persistence and
   Colab Secrets-based model access.
+
+## LLM provider
+
+Anthropic (Claude) is used for §3.5. `openai` was dropped from the project
+after the OpenAI trial credit was exhausted with no further funding — the
+assignment only requires one approved provider.
 
 ## Security
 
